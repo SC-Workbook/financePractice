@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5A6007802ECF9F440071D36E /* CoreKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5A60077F2ECF9F440071D36E /* CoreKit */; };
+		5A60078A2ECF9F9B0071D36E /* CoreKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5A6007892ECF9F9B0071D36E /* CoreKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5A60073F2ECF9A4B0071D36E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A60078A2ECF9F9B0071D36E /* CoreKit in Frameworks */,
+				5A6007802ECF9F440071D36E /* CoreKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +119,8 @@
 			);
 			name = BMOApp;
 			packageProductDependencies = (
+				5A60077F2ECF9F440071D36E /* CoreKit */,
+				5A6007892ECF9F9B0071D36E /* CoreKit */,
 			);
 			productName = BMOApp;
 			productReference = 5A6007312ECF9A480071D36E /* BMOApp.app */;
@@ -195,6 +204,9 @@
 			);
 			mainGroup = 5A6007282ECF9A480071D36E;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5A60078D2ECFA18D0071D36E /* XCLocalSwiftPackageReference "BMOApp/CoreKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5A6007322ECF9A480071D36E /* Products */;
 			projectDirPath = "";
@@ -578,6 +590,24 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		5A60078D2ECFA18D0071D36E /* XCLocalSwiftPackageReference "BMOApp/CoreKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = BMOApp/CoreKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A60077F2ECF9F440071D36E /* CoreKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreKit;
+		};
+		5A6007892ECF9F9B0071D36E /* CoreKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5A6007292ECF9A480071D36E /* Project object */;
 }
