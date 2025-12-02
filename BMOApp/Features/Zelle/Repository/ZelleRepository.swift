@@ -15,7 +15,7 @@ public final class ZelleRepository: ZelleRepositoryProtocol {
         let request = try RequestBuilder.build(
             url: "https://api.bank.com/zelle/send",
             method: .post,
-            body: ["amount": amount, "recipient": recipient]
+//            body: ["amount": amount, "recipient": recipient]
         )
 
         return try await HTTPClient.shared.request(request)

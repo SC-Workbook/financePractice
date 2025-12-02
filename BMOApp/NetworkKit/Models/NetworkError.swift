@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import CoreKit
+//import CoreKit
 
 public enum NetworkError: Error {
     case invalidURL

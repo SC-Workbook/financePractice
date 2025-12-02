@@ -19,7 +19,7 @@ public struct DSCard<Content: View>: View {
     public var body: some View {
         content
             .padding()
-            .background(DSColor.background)
+//            .background(DSColor.background)
             .cornerRadius(12)
             .dsShadow()
     }

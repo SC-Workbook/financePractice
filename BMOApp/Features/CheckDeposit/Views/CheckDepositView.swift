@@ -7,7 +7,7 @@
 
 import Foundation
 import SwiftUI
-import DesignSystem
+//import DesignSystem
 
 public struct CheckDepositView: View {
 

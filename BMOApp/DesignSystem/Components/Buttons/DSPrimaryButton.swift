@@ -25,7 +25,7 @@ public struct DSPrimaryButton: View {
                 .padding()
                 .frame(maxWidth: .infinity)
                 .foregroundColor(.white)
-                .background(DSColor.primary)
+//                .background(DSColor.primary)
                 .cornerRadius(10)
         }
     }

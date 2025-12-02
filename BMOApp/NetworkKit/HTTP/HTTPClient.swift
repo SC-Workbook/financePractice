@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import CoreKit
+//import CoreKit
 
 public final class HTTPClient {
 
@@ -59,9 +59,9 @@ public final class HTTPClient {
             }
 
         } catch {
-            if retry > 0 {
-                return try await request(request, cacheKey: cacheKey, retry: retry - 1)
-            }
+//            if retry > 0 {
+//                return try await request(request, cacheKey: cacheKey, retry: retry - 1)
+//            }
             throw NetworkError.unknown
         }
     }

@@ -7,10 +7,10 @@
 
 import Foundation
 import UIKit
-import FeatureCheckDeposit
-import FeatureZelle
-import FeatureCardControls
-import FeatureAlerts
+//import FeatureCheckDeposit
+//import FeatureZelle
+//import FeatureCardControls
+//import FeatureAlerts
 
 public protocol Coordinator: AnyObject {
     var navigationController: UINavigationController { get }

@@ -7,7 +7,7 @@
 
 import Foundation
 //import NetworkKit
-import CoreKit
+//import CoreKit
 
 public final class CheckDepositRepository: CheckDepositRepositoryProtocol {
 
