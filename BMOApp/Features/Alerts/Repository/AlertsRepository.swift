@@ -7,15 +7,23 @@
 
 import Foundation
 
+public protocol AlertsRepositoryProtocol {
+    func fetchAlerts() async throws -> [AlertItem]
+}
+
 public final class AlertsRepository: AlertsRepositoryProtocol {
 
     public init() {}
 
     public func fetchAlerts() async throws -> [AlertItem] {
-        let request = try RequestBuilder.build(
-            url: "https://api.bank.com/alerts",
-            method: .get
-        )
-        return try await HTTPClient.shared.request(request)
+        // Simulated network or local JSON
+        return [
+            AlertItem(id: "1", message: "Login from a new device detected."),
+            AlertItem(id: "2", message: "Your checking account balance is low."),
+            AlertItem(id: "3", message: "A large transaction was made on your card.")
+        ]
     }
 }
+
+
+

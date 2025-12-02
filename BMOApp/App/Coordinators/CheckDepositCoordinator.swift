@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 import SwiftUI
-//import FeatureCheckDeposit
+//import CheckDeposit
 
 final class CheckDepositCoordinator: Coordinator {
 

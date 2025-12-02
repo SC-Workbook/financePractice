@@ -13,7 +13,9 @@ public struct CheckDepositView: View {
 
     @StateObject private var vm = CheckDepositViewModel()
 
-    public init() {}
+    public init(viewModel: CheckDepositViewModel) {
+            _vm = StateObject(wrappedValue: viewModel)
+        }
 
     public var body: some View {
         VStack(spacing: DSSpacing.md) {

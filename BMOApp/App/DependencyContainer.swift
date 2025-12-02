@@ -26,9 +26,9 @@ final class DependencyContainer {
         ZelleRepository()
     }
 
-//    func makeCardControlsRepository() -> CardControlsRepositoryProtocol {
-//        CardControlsRepository()
-//    }
+    func makeCardControlsRepository() -> CardControlsRepository {
+        CardControlsRepository()
+    }
 
     func makeAlertsRepository() -> AlertsRepositoryProtocol {
         AlertsRepository()
